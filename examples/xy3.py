@@ -105,7 +105,7 @@ ymin  = y1min     # They should all be the same
 ymax  = y1max
 
 #---Open a PNG image for the graphics
-wks_type = "png"
+wks_type = "x11"
 wks = Ngl.open_wks(wks_type,"xy3")
 
 # Will be used to set shape and location of plots.

@@ -57,7 +57,7 @@ lon = to_np(lon)
 
 
 #---Open file for graphics
-wks_type = "png"
+wks_type = "x11"
 wks = Ngl.open_wks(wks_type,"wrf1")
 
 # Create handle for plot options

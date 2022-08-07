@@ -64,7 +64,7 @@ xsquare = [16.0,48.0,48.0,16.0,16.0]    # X and Y coordinates
 ysquare = [-0.5,-0.5, 0.5, 0.5,-0.5]    # for polygon.
 
 # Send output to PNG file
-wks_type = "png"
+wks_type = "x11"
 wks = Ngl.open_wks(wks_type,"xy2")
 
 #

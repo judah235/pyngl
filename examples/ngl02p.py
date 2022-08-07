@@ -80,7 +80,7 @@ lon  = cdf_file.variables["lon"]  # longitude
 #
 #  Open a PNG file
 #
-wks_type = "png"
+wks_type = "x11"
 wks = Ngl.open_wks(wks_type,"ngl02p")
 
 resources = Ngl.Resources()
